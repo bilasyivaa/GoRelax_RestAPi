@@ -10,19 +10,19 @@ const pendataantamuhotelSchema = mongoose.Schema({
         required: true
     },
     Number: {
-        type: Number,
+        type: String,
         required: true
     },
     Info: {
-        type: Number,
+        type: String,
         required: true
     },
     CheckIn: {
-        type: Number,
+        type: String,
         required:true
     },
     CheckOut: {
-        type: Number,
+        type: String,
         required:true
     },
     user_id: {
